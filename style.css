@@ -1,0 +1,97 @@
+body {
+    background-color: #ddd;
+    font-family: Segoe UI;
+}
+
+.game_continer {
+    background-color: white;
+    padding: 10px;
+}
+
+.game_continer h2 {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.game_continer .choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game_continer .choose button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.game_continer .start button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.game_continer .info p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.game_continer .info p span {
+    color: green;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.game_continer .word h1 {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+.game_continer .enter_word input {
+    width: 96%;
+    background-color: #ddd;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.game_continer .group_word {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game_continer .group_word h4 {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: fit-content;
+    margin: 10px 10px;
+}
+
+.game_continer .result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game_continer .lose h3 {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
